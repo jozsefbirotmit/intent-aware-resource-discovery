@@ -1,0 +1,14 @@
+# Végleges PSA1-S célzott telemetria-replay
+
+Rögzítés az új eredmények kiszámítása előtt. A végleges, feltöltött benchmark implementációja változatlan marad. Nincs új algoritmus- vagy küszöbhangolás, nincs nyersadat-újrafeldolgozás vagy modell-újraillesztés.
+
+- Philly: az elsődleges teljes ismert telemetriás minta összes korábbi 224 konfigurációja és 896 mentett időszakmodellje. Ugyanazok a maszkok, 1/5/15/60 perces jelek, statikus vagy múltbeli 14 napos/heti frissítésű modellek. A foglalási naplóval párosított másodlagos minta itt nem szerepel.
+- Alibaba-2018: mind az 54 korábbi profil, a 27 tanításból becsült p/alpha/beta hármas változatlan. A korábbi 3 nap tanítás, közel 2 nap kalibráció és közel 3 nap teszt, egyórás embargók megmaradnak. A három feltétel, két költségprofil és három információkor változatlan.
+- Módszerek: a végleges benchmark PSA1 és PSA1-S konfigurációi, a régi egzakt DP-policy, az optimális REFRESH nélküli kockázatkorlátos referencia, valamint az eredeti szigorú query-only kontroll. Az új no-refresh referencia rootértékét a feltöltött benchmark függvényével is ellenőrizzük.
+- Mivel mindkét mintán N=4<=K=8, a PSA1-S a kezdeti megengedett STOP-on kívül kezdettől egzakt tailt használ. Az aktív szelektív mélyítés nem léphet működésbe. Ezt nem tekintjük a szelektív heurisztika külön telemetriás igazolásának.
+- Minden döntési modell mind a 256 igazság–refresh kimenetén valódi policy-replay készül. Az új PSA1 értékeit a régi PSA1-gyel, a PSA1-S modellköltségét az egzakt referenciával ellenőrizzük. A fizetett akciósorok, költségek és elmulasztások eltérését külön jelöljük; nem nevezzük át automatikusan a régi DP-sorokat.
+- Alibaba: epsilon=0 és 0.10 rögzített keret, illetve a korábbi, kizárólag kalibrációs adatokon alkalmazott kapu a {0,.01,.025,.05,.075,.10} rácson: minimum 200 eredmény nélküli lezárás és maximum 5% empirikus feltételes elmulasztás. Az új PSA1-S és no-refresh policyra is ugyanezt az eljárást alkalmazzuk; a választás a tesztpolicyk értékelése előtt rögzül. A régi PSA1 és régi DP választásainak reprodukálódniuk kell.
+- A kalibráción választott keret módszerenként eltérhet; az ilyen pontok nem azonos valós kockázat melletti dominancia-összehasonlítások. A holtversenyoldás hatását azonos modellnél és epsilon mellett külön auditáljuk.
+- Leíró bootstrap: Philly az eredeti 7 naptári napos blokk és seed17; Alibaba az eredeti 1 órás mozgóblokk és seed1701. Mindkettő 1000 ismétlés; a nulla eseményből elfajuló és a nem definiált arányok külön megmaradnak.
+- A források korábbi hiány-, normalizálás- és fizikai elhelyezhetőségi korlátai megmaradnak. A keresési költségek modellezettek. A végleges benchmark 90 szintetikus modelljét nem futtatjuk újra; új online runtime- vagy nagy-N minőségállítás nem készül.
+- Eagle és új 12-domaines telemetria nem része ennek a célzott lezáró futtatásnak.

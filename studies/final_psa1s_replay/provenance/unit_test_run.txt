@@ -1,0 +1,10 @@
+test_calibration_gate_has_no_test_argument_and_falls_back_to_zero (test_final_replay.FinalReplayChecks.test_calibration_gate_has_no_test_argument_and_falls_back_to_zero) ... ok
+test_final_tail_is_exact_and_no_selective_branch_at_three_domains (test_final_replay.FinalReplayChecks.test_final_tail_is_exact_and_no_selective_branch_at_three_domains) ... ok
+test_no_refresh_reference_never_reads_the_signal (test_final_replay.FinalReplayChecks.test_no_refresh_reference_never_reads_the_signal) ... ok
+test_same_exact_cost_does_not_imply_same_misses_on_a_real_model (test_final_replay.FinalReplayChecks.test_same_exact_cost_does_not_imply_same_misses_on_a_real_model) ... ok
+test_zero_budget_all_256_worlds_have_no_misses (test_final_replay.FinalReplayChecks.test_zero_budget_all_256_worlds_have_no_misses) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.454s
+
+OK

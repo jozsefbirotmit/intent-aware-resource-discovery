@@ -1,0 +1,20 @@
+[
+  {
+    "method": "query_only",
+    "scenarios": 224,
+    "max_cost_difference": 8.881784197001252e-16,
+    "counts_identical": true
+  },
+  {
+    "method": "psa1",
+    "scenarios": 224,
+    "max_cost_difference": 6.900258142650273e-12,
+    "counts_identical": true
+  },
+  {
+    "method": "legacy_exact",
+    "scenarios": 224,
+    "max_cost_difference": 6.9038108563290734e-12,
+    "counts_identical": true
+  }
+]

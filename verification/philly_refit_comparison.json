@@ -1,0 +1,6 @@
+{
+  "dataset": "philly",
+  "fitted_models": 896,
+  "domain_states_equal": true,
+  "policy_rows": 1344
+}

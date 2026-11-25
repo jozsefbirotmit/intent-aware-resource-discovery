@@ -1,0 +1,7 @@
+{
+  "cases.csv": 3600,
+  "calibration_drift_cases.csv": 1500,
+  "calibration_drift_summary.csv": 4,
+  "sensitivity_cases.csv": 4860,
+  "sensitivity_summary.csv": 27
+}

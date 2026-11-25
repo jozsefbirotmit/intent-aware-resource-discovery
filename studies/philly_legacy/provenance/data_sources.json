@@ -1,0 +1,13 @@
+{
+  "data_source": "https://github.com/msr-fiddle/philly-traces",
+  "commit": "29a1b87fa2d9ed80b83c9e3a37f3a88d382b031d",
+  "archive_size": 1055988361,
+  "archive_sha256": "2037ccf63a725a02be718b0e1aeee6142c90b7f62d0d849295120e9f6ba13d2c",
+  "archive_verified": true,
+  "case": "Measured GPU/host-memory predicates; public-subset allocation exclusion with uncertain endpoints retained",
+  "inventory_issue": "https://github.com/msr-fiddle/philly-traces/issues/8",
+  "job_time_zone": "UTC inferred from application ID ResourceManager epochs; README does not specify it",
+  "source_api_reference": "https://hadoop.apache.org/docs/r2.7.7/api/org/apache/hadoop/yarn/api/records/ApplicationId.html",
+  "license": "CC BY 4.0",
+  "source_paper": "https://www.usenix.org/conference/atc19/presentation/jeon"
+}

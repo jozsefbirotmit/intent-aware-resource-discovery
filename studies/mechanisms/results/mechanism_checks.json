@@ -1,0 +1,29 @@
+{
+  "p4_probe": {
+    "count": 600,
+    "PSA_refresh_first": 600,
+    "DP_refresh_first": 600,
+    "PSA_exact": 600,
+    "PSA_cost_mean": 10.588103130930085,
+    "crossing_verified": 600,
+    "probe_better_both_fixed": 600,
+    "mean_fixed_saving": 0.5054378300245409
+  },
+  "p3_screen": {
+    "count": 600,
+    "PSA_refresh_first": 600,
+    "DP_refresh_first": 600,
+    "PSA_exact": 600,
+    "PSA_cost_mean": 5.6851896722484065,
+    "strict_interval_verified": 600,
+    "screen_better_both_fixed": 600,
+    "mean_fixed_saving": 1.1878725235756407
+  },
+  "deferred": {
+    "count": 600,
+    "PSA_refresh_first": 0,
+    "DP_refresh_first": 0,
+    "PSA_exact": 600,
+    "PSA_cost_mean": 6.888140467888324
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "job_hosts": 415,
+  "hosts_with_logged_gpu_index_exceeding_inventory": 238,
+  "allocation_details_exceeding_inventory": 98325,
+  "resource_manager_epochs": 11,
+  "first_submission_delays_seconds": [
+    1087816.987,
+    26838.986,
+    10.981,
+    158.989,
+    451.936,
+    111.981,
+    11.988,
+    104.987,
+    8.989,
+    42.978,
+    5189.979
+  ],
+  "utc_inference": "Several sequence-0001 submissions follow ResourceManager epoch IDs by about9-12seconds, supporting UTC. Some earliest observed submissions occur later because the job log is a subset. Dataset README does not explicitly confirm the time zone.",
+  "bounded_gpu_intervals": 280272,
+  "overlapping_bounded_gpu_intervals": 1329,
+  "long_overlap_gt1h_intervals": 174
+}

@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "frozen_files_verified": 23,
+  "saved_model_variants_checked": 1220,
+  "policy_result_rows": {
+    "philly": 1120,
+    "alibaba2018": 1620
+  },
+  "independent_unit_tests": 5,
+  "legacy_cost_and_count_reproduction": "passed",
+  "calibration_choices_reconstructed": 270,
+  "all_epsilon_zero_miss_counts": 0,
+  "all_model_STOP_bounds": "passed",
+  "selective_refinements": 0,
+  "interpretation": "Small N<=K replay verifies the final exact-tail mode, not selective refinement performance"
+}

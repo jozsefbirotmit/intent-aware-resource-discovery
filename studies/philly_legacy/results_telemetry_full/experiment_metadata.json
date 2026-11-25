@@ -1,0 +1,114 @@
+{
+  "scenarios": 224,
+  "methods": [
+    "query_only",
+    "risk_query",
+    "screening_greedy",
+    "h1",
+    "psa1",
+    "exact"
+  ],
+  "test_start_utc": "2017-11-01 08:00:00+00:00",
+  "split_utc": "2017-11-01 07:00:00+00:00",
+  "layouts": [
+    {
+      "replicate": 0,
+      "groups": [
+        [
+          "m51",
+          "m271"
+        ],
+        [
+          "m55",
+          "m204"
+        ],
+        [
+          "m156",
+          "m418"
+        ],
+        [
+          "m260",
+          "m17"
+        ]
+      ]
+    },
+    {
+      "replicate": 1,
+      "groups": [
+        [
+          "m49",
+          "m91"
+        ],
+        [
+          "m147",
+          "m270"
+        ],
+        [
+          "m9",
+          "m171"
+        ],
+        [
+          "m284",
+          "m36"
+        ]
+      ]
+    },
+    {
+      "replicate": 2,
+      "groups": [
+        [
+          "m406",
+          "m190"
+        ],
+        [
+          "m296",
+          "m313"
+        ],
+        [
+          "m158",
+          "m39"
+        ],
+        [
+          "m231",
+          "m320"
+        ]
+      ]
+    }
+  ],
+  "lags_minutes": [
+    1,
+    5,
+    15,
+    60
+  ],
+  "gpu_util_limit": 20,
+  "host_free_memory_fraction": 0.05,
+  "requested_gpus": [
+    2,
+    4
+  ],
+  "epsilons": [
+    0,
+    0.1
+  ],
+  "refresh_ratios": "0.05 for all; 0.20 additionally for replicate 0, 4-GPU intents",
+  "calibration": "static preceding data; or trailing14days reset every7days, strictly preceding predictions; explicit static pre-test fallback if fewer than100 recent paired observations",
+  "common_test": "same timestamps across four lags and both intents; no job-log availability restriction",
+  "mask_scope": "telemetry_only",
+  "seeds": {
+    "partition": 2026,
+    "bootstrap": 17
+  },
+  "bootstrap": {
+    "draws": 1000,
+    "calendar_block_days": 7,
+    "limitation": "Descriptive sensitivity; rare-event zero-count degeneracy and nonstationarity prevent a general assurance claim."
+  },
+  "warnings": [
+    "Artificial domains group two anonymous measured hosts; no real federation/topology is inferred.",
+    "Public-subset job exclusion does not establish scheduler availability.",
+    "Per-minute GPU averages are not dynamic VRAM measurements.",
+    "All management-action costs are modelled, not measured network RTTs."
+  ],
+  "elapsed_seconds": 124.63177226300013
+}

@@ -1,0 +1,253 @@
+{
+  "algorithm": "SHA-256",
+  "files": {
+    "README_HU.md": {
+      "size_bytes": 5923,
+      "sha256": "13e765684488d845d11abc00fbb29bbc677f828176c5d52cc9772348aa911a55"
+    },
+    "code/build_replay_report.py": {
+      "size_bytes": 22926,
+      "sha256": "ed68deb67552e7ff07042ad76c0d5862a79f595ab5421ad9d3cf9f78b40e25ad"
+    },
+    "code/final_policy_tables.py": {
+      "size_bytes": 6245,
+      "sha256": "ee02ac2ed225c5be86cc31a8bdc23f3d1ae0f46b57a6b598542498e6b9be83e5"
+    },
+    "code/legacy_evaluation.py": {
+      "size_bytes": 5830,
+      "sha256": "46f05df6632d9b0db6acde33d8a717a51f8ab4bd8d0b9ef015d7f6cd09e718b5"
+    },
+    "code/replay_alibaba2018.py": {
+      "size_bytes": 7355,
+      "sha256": "aef91c9efbd28ef6fff5d676d458eaaa5e096883a9fb0d939ee5d6168af6e9d7"
+    },
+    "code/replay_philly.py": {
+      "size_bytes": 6776,
+      "sha256": "819cfd3776d84794d08b87fbc6238c1664d6b088e45c100dce790146fb8f8cc6"
+    },
+    "code/replay_statistics.py": {
+      "size_bytes": 1504,
+      "sha256": "53d3fb3bcae259af8b5c0e9af5d437d996368c433bca915f22bb52f6efb98652"
+    },
+    "code/test_final_replay.py": {
+      "size_bytes": 2601,
+      "sha256": "c5b56ffcc0246aee1ed46146d65b5ba2756a4dc5aceb261ea8ef7c98494a8fbe"
+    },
+    "code/validate_replay_outputs.py": {
+      "size_bytes": 3876,
+      "sha256": "ac887bf8ce11625f4a1b78e7d5aaed3ebaeaf1a3bb29fadabfedd96113b951c5"
+    },
+    "input/alibaba2018/calibration_budget_grid.csv": {
+      "size_bytes": 282673,
+      "sha256": "ae674742c08fc9e04f41f7cc9ca06598e86b103d65360e70d95e3aef68a63844"
+    },
+    "input/alibaba2018/calibration_choices_frozen_before_test.json": {
+      "size_bytes": 20187,
+      "sha256": "dccf83f2c3c94f273f4faca4046ee64f050996a65a0b897f382dbf005e314f6c"
+    },
+    "input/alibaba2018/domain_states.npz": {
+      "size_bytes": 195957,
+      "sha256": "d104c95125814254ef8e6f6325994f31c20268810c902767efd44e6e46c23d70"
+    },
+    "input/alibaba2018/experiment_metadata.json": {
+      "size_bytes": 1184,
+      "sha256": "5df3b0b53b9b6a24a5197927ea987d6d52ba20d0d35010916e597dbecd49997c"
+    },
+    "input/alibaba2018/fitted_models.json": {
+      "size_bytes": 60608,
+      "sha256": "774eb0c891a6369946d1204519f91afe6fe5ba9e34b94924ecd84af53a6b7380"
+    },
+    "input/alibaba2018/policy_summary.csv": {
+      "size_bytes": 712213,
+      "sha256": "843d814a00e1b0e869ae19f69a195ebd7b8bbf40c7cc0cf7b986c732672e9fb8"
+    },
+    "input/philly/domain_states.csv.gz": {
+      "size_bytes": 1829387,
+      "sha256": "160df38e2bb1b4f6da45500fb8f7918d595e2a7445c053cfcfcf06a3d697ea9c"
+    },
+    "input/philly/experiment_metadata.json": {
+      "size_bytes": 2347,
+      "sha256": "661ad9654c803d6cac62c51e48f0bc4c7e19fff8448a225fe5fafea106e236a8"
+    },
+    "input/philly/fitted_models.json": {
+      "size_bytes": 1655548,
+      "sha256": "f0d2d3d392282caa82c3a2b82c3c273853b00fa0ba806bb66928e23ff3f51e2e"
+    },
+    "input/philly/policy_summary.csv": {
+      "size_bytes": 373287,
+      "sha256": "6a930a68de02ff92304ec7c84fb2626ff572b8639bef4c3d62d832bfa3642b38"
+    },
+    "provenance/environment.json": {
+      "size_bytes": 178,
+      "sha256": "770cba340da69db81e07220b89372a4f9728546337ccfa4b564486415a254552"
+    },
+    "provenance/final_validation.json": {
+      "size_bytes": 514,
+      "sha256": "32692b4425eb8de9ac42888289853e84feb3d2744591a97e2d1ff049e5667034"
+    },
+    "provenance/frozen_input_sources.json": {
+      "size_bytes": 3897,
+      "sha256": "af4672c2b64f3afc61538889897ba2161c44cdcbe2082ce0f49cf666d4dcd53b"
+    },
+    "provenance/replay_plan.md": {
+      "size_bytes": 3110,
+      "sha256": "2ab3c7343d323954db860b25a371be501677d7b01e221ff1832df2c00d18593a"
+    },
+    "provenance/unit_test_run.txt": {
+      "size_bytes": 907,
+      "sha256": "d6e249f2010c63c3ef12631df8497cef86560f4bbdc4dc09ec9d36d2706aace2"
+    },
+    "report/NOMS2027_PSA1S_Frozen_Telemetry_Replay_v1_hu.md": {
+      "size_bytes": 14835,
+      "sha256": "8d91e23ffe491b31daec4e255ced00c3bc7fd34b8075d16b195eaf648166bff9"
+    },
+    "report/fig1_zero_budget_final_policy.pdf": {
+      "size_bytes": 22459,
+      "sha256": "c4a832fc866ef74bc41152ee660a33e0e21cccb709480962039698bd8f64d187"
+    },
+    "report/fig1_zero_budget_final_policy.png": {
+      "size_bytes": 126977,
+      "sha256": "3168cc75945d9b009055ffcc519b909b5ed1649c24637623abf291398d6c9482"
+    },
+    "report/fig2_cost_risk_points.pdf": {
+      "size_bytes": 20590,
+      "sha256": "a4154e1c9ad5a2eb6e9a9178b45ca1aa4f83e5b6603fa37347bc77179fffb736"
+    },
+    "report/fig2_cost_risk_points.png": {
+      "size_bytes": 143512,
+      "sha256": "1fc1a38ac4f4a2d82e0f5cf8231307cefcfae91785508ac986ccf47910b08cc0"
+    },
+    "report/fig3_optimal_policy_ties.pdf": {
+      "size_bytes": 17233,
+      "sha256": "0c48677ec45c7a989b94008566ff39fcbb7312fb7ab4755dee5b8ed9ca853e75"
+    },
+    "report/fig3_optimal_policy_ties.png": {
+      "size_bytes": 91929,
+      "sha256": "59a9772db0e8feaf2761b6e3d2031950e0b401305f4941a74be41ed45a685db9"
+    },
+    "requirements.txt": {
+      "size_bytes": 77,
+      "sha256": "9e84bed5214424838d776c351210b884af1249d11512324bf70fef68d74e095d"
+    },
+    "results/alibaba2018/calendar_policy_statistics.csv.gz": {
+      "size_bytes": 3958529,
+      "sha256": "cfe0bec874c9a7bda353621bb9f76c291a96aa1932c5827a199c0c8d3bb6a6bc"
+    },
+    "results/alibaba2018/calibration_budget_grid.csv": {
+      "size_bytes": 202872,
+      "sha256": "8af8d36fe7fb0c4d6bfbf3e267dee819c98a13e9b9475e3f77ba9e7dfff6a7f8"
+    },
+    "results/alibaba2018/calibration_choices_frozen_before_test.json": {
+      "size_bytes": 18111,
+      "sha256": "b2e102a59decb7d8dabf2225bc8d03c61637c88ec39c7479b70aa887ec1eb7ca"
+    },
+    "results/alibaba2018/headline_zero_budget_C.csv": {
+      "size_bytes": 4453,
+      "sha256": "64d6e2a907e3082cb4e2a3e8260141547af7cb25a5252b534584cce9ab46bc1f"
+    },
+    "results/alibaba2018/legacy_reproduction_checks.json": {
+      "size_bytes": 530,
+      "sha256": "c81b9c80df5388d1782793372250316308f6d189e42be58fb3e7335d9c66df6f"
+    },
+    "results/alibaba2018/model_tie_audit.json": {
+      "size_bytes": 374213,
+      "sha256": "abd2244bb55ef93398d2e1d46fa67c3ad780580dbf2e16ecb19631a684178c0b"
+    },
+    "results/alibaba2018/policy_summary.csv": {
+      "size_bytes": 503375,
+      "sha256": "d12f62e82ce276e5b540b37d68131b572e061238ecd17602d597ac9f06b99e09"
+    },
+    "results/alibaba2018/replay_metadata.json": {
+      "size_bytes": 547,
+      "sha256": "1308ed8244cc2f547fe0ff60e091ff630234523881d2581c78563377496d2649"
+    },
+    "results/alibaba2018/test_tie_audit.csv": {
+      "size_bytes": 42228,
+      "sha256": "4d3a8005b29d6c2ebe4f078555586cb3af2eae317a1c8aad2220a073e046bab4"
+    },
+    "results/headline_summary.json": {
+      "size_bytes": 1560,
+      "sha256": "10c16ca497370735b90ab052d49e640da185648e960dea74c97300352568ab58"
+    },
+    "results/philly/daily_policy_statistics.csv.gz": {
+      "size_bytes": 646647,
+      "sha256": "15d55747b50279acdaab9bca8a5c2df7172ccd4add35c21ea1435ca5b5ee0b0f"
+    },
+    "results/philly/headline_zero_budget.csv": {
+      "size_bytes": 8067,
+      "sha256": "2a065ab45426ea249196a4e6ae046edf1d5e3995da183f901410739bcbb17783"
+    },
+    "results/philly/legacy_reproduction_checks.json": {
+      "size_bytes": 414,
+      "sha256": "430d48d7dacc6583b38cd5d930bb40ece7ca28b2463786e0bc681acf15b9e3a7"
+    },
+    "results/philly/model_tie_audit.csv": {
+      "size_bytes": 76707,
+      "sha256": "463f0cc6c41cb1c2a48f7df62b1901ef216d73d5e397aa5ce4d70c630348b669"
+    },
+    "results/philly/model_tie_audit.json": {
+      "size_bytes": 1091499,
+      "sha256": "290614acfbc4fc941e00ba132ad1278a2ba1745e91501c94f021531b5756d5fb"
+    },
+    "results/philly/policy_summary.csv": {
+      "size_bytes": 389708,
+      "sha256": "4ced6944536fac3a29ba424855181b2ec1b0109cd91bd320a4e379c5f0427efb"
+    },
+    "results/philly/replay_metadata.json": {
+      "size_bytes": 441,
+      "sha256": "7c879b4bd99c9c7ede19b00ba9572f8da0cb54a8c6a80d751d77bb058b8643aa"
+    },
+    "vendor/final_algorithm/README_HU.md": {
+      "size_bytes": 1047,
+      "sha256": "86068e8e81772ba5d96f3904ae5a26b169d469e992bc8f10a7252ec195df58a7"
+    },
+    "vendor/final_algorithm/adaptive_study.py": {
+      "size_bytes": 8186,
+      "sha256": "41de0023c18f377b9d558d2651323217bd1aa433978d19b61efcb84b20ddddbc"
+    },
+    "vendor/final_algorithm/benchmark.py": {
+      "size_bytes": 4630,
+      "sha256": "6057afbb574ad934548502a6471a089a04d6f83327e54ecf852c5739161ad212"
+    },
+    "vendor/final_algorithm/environment.txt": {
+      "size_bytes": 86,
+      "sha256": "195c1f56a88e7866046df83062f99906f012c327a5006de518b36a50865a3bdc"
+    },
+    "vendor/final_algorithm/exact_tail.py": {
+      "size_bytes": 4994,
+      "sha256": "d3361256f441e501ac174d66e2ed7b5d66f6425697b319fea547d2a3e6a179d1"
+    },
+    "vendor/final_algorithm/ia_osr_experiment.py": {
+      "size_bytes": 9101,
+      "sha256": "751746e688a7575a9010c79915cce2e779d05bd5b2bf05eb8b003a6581744729"
+    },
+    "vendor/final_algorithm/ia_osr_psa_audit.py": {
+      "size_bytes": 11454,
+      "sha256": "b840a2eb0a51d893de47be198edf9e4c1e261a3a7592e510d8f04584a9feae9a"
+    },
+    "vendor/final_algorithm/iteration.py": {
+      "size_bytes": 6123,
+      "sha256": "abe519ce5a4d0544f9f11555d1b5388de729334d9886450a8dd5681898ebdb49"
+    },
+    "vendor/final_algorithm/mechanism_study.py": {
+      "size_bytes": 23930,
+      "sha256": "4e4f8a8ec9bd30e1671b145198bdfbcb57fb8dca6d150e229751a6485ae65c4e"
+    },
+    "vendor/final_algorithm/research_report_hu.md": {
+      "size_bytes": 9894,
+      "sha256": "0a4faaed470c761d8e7bd5c9223f2657f198484409f1cd971d3910b2b58b8712"
+    },
+    "vendor/final_algorithm/selective.py": {
+      "size_bytes": 4181,
+      "sha256": "5d0d0a6855af98080171ef6c9930df14ac23debfba6e4bc0e9d4629f9d5b7152"
+    },
+    "vendor/final_algorithm/skip_depth_study.py": {
+      "size_bytes": 5260,
+      "sha256": "69dfdffbf7d3d6b2799d5a442bfef807ed6fa8392e623e24cb2f6ef7bea134bf"
+    },
+    "vendor/final_algorithm/summarize.py": {
+      "size_bytes": 4778,
+      "sha256": "e419d56ca7ff7d1f97e2b29db33967c6ff24f51463ef510b3927e05c72508d45"
+    }
+  }
+}

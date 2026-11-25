@@ -1,0 +1,117 @@
+[
+  {
+    "file": "input/alibaba2018/calibration_budget_grid.csv",
+    "size_bytes": 282673,
+    "sha256": "ae674742c08fc9e04f41f7cc9ca06598e86b103d65360e70d95e3aef68a63844"
+  },
+  {
+    "file": "input/alibaba2018/calibration_choices_frozen_before_test.json",
+    "size_bytes": 20187,
+    "sha256": "dccf83f2c3c94f273f4faca4046ee64f050996a65a0b897f382dbf005e314f6c"
+  },
+  {
+    "file": "input/alibaba2018/domain_states.npz",
+    "size_bytes": 195957,
+    "sha256": "d104c95125814254ef8e6f6325994f31c20268810c902767efd44e6e46c23d70"
+  },
+  {
+    "file": "input/alibaba2018/experiment_metadata.json",
+    "size_bytes": 1184,
+    "sha256": "5df3b0b53b9b6a24a5197927ea987d6d52ba20d0d35010916e597dbecd49997c"
+  },
+  {
+    "file": "input/alibaba2018/fitted_models.json",
+    "size_bytes": 60608,
+    "sha256": "774eb0c891a6369946d1204519f91afe6fe5ba9e34b94924ecd84af53a6b7380"
+  },
+  {
+    "file": "input/alibaba2018/policy_summary.csv",
+    "size_bytes": 712213,
+    "sha256": "843d814a00e1b0e869ae19f69a195ebd7b8bbf40c7cc0cf7b986c732672e9fb8"
+  },
+  {
+    "file": "input/philly/domain_states.csv.gz",
+    "size_bytes": 1829387,
+    "sha256": "160df38e2bb1b4f6da45500fb8f7918d595e2a7445c053cfcfcf06a3d697ea9c"
+  },
+  {
+    "file": "input/philly/experiment_metadata.json",
+    "size_bytes": 2347,
+    "sha256": "661ad9654c803d6cac62c51e48f0bc4c7e19fff8448a225fe5fafea106e236a8"
+  },
+  {
+    "file": "input/philly/fitted_models.json",
+    "size_bytes": 1655548,
+    "sha256": "f0d2d3d392282caa82c3a2b82c3c273853b00fa0ba806bb66928e23ff3f51e2e"
+  },
+  {
+    "file": "input/philly/policy_summary.csv",
+    "size_bytes": 373287,
+    "sha256": "6a930a68de02ff92304ec7c84fb2626ff572b8639bef4c3d62d832bfa3642b38"
+  },
+  {
+    "file": "vendor/final_algorithm/README_HU.md",
+    "size_bytes": 1047,
+    "sha256": "86068e8e81772ba5d96f3904ae5a26b169d469e992bc8f10a7252ec195df58a7"
+  },
+  {
+    "file": "vendor/final_algorithm/adaptive_study.py",
+    "size_bytes": 8186,
+    "sha256": "41de0023c18f377b9d558d2651323217bd1aa433978d19b61efcb84b20ddddbc"
+  },
+  {
+    "file": "vendor/final_algorithm/benchmark.py",
+    "size_bytes": 4630,
+    "sha256": "6057afbb574ad934548502a6471a089a04d6f83327e54ecf852c5739161ad212"
+  },
+  {
+    "file": "vendor/final_algorithm/environment.txt",
+    "size_bytes": 86,
+    "sha256": "195c1f56a88e7866046df83062f99906f012c327a5006de518b36a50865a3bdc"
+  },
+  {
+    "file": "vendor/final_algorithm/exact_tail.py",
+    "size_bytes": 4994,
+    "sha256": "d3361256f441e501ac174d66e2ed7b5d66f6425697b319fea547d2a3e6a179d1"
+  },
+  {
+    "file": "vendor/final_algorithm/ia_osr_experiment.py",
+    "size_bytes": 9101,
+    "sha256": "751746e688a7575a9010c79915cce2e779d05bd5b2bf05eb8b003a6581744729"
+  },
+  {
+    "file": "vendor/final_algorithm/ia_osr_psa_audit.py",
+    "size_bytes": 11454,
+    "sha256": "b840a2eb0a51d893de47be198edf9e4c1e261a3a7592e510d8f04584a9feae9a"
+  },
+  {
+    "file": "vendor/final_algorithm/iteration.py",
+    "size_bytes": 6123,
+    "sha256": "abe519ce5a4d0544f9f11555d1b5388de729334d9886450a8dd5681898ebdb49"
+  },
+  {
+    "file": "vendor/final_algorithm/mechanism_study.py",
+    "size_bytes": 23930,
+    "sha256": "4e4f8a8ec9bd30e1671b145198bdfbcb57fb8dca6d150e229751a6485ae65c4e"
+  },
+  {
+    "file": "vendor/final_algorithm/research_report_hu.md",
+    "size_bytes": 9894,
+    "sha256": "0a4faaed470c761d8e7bd5c9223f2657f198484409f1cd971d3910b2b58b8712"
+  },
+  {
+    "file": "vendor/final_algorithm/selective.py",
+    "size_bytes": 4181,
+    "sha256": "5d0d0a6855af98080171ef6c9930df14ac23debfba6e4bc0e9d4629f9d5b7152"
+  },
+  {
+    "file": "vendor/final_algorithm/skip_depth_study.py",
+    "size_bytes": 5260,
+    "sha256": "69dfdffbf7d3d6b2799d5a442bfef807ed6fa8392e623e24cb2f6ef7bea134bf"
+  },
+  {
+    "file": "vendor/final_algorithm/summarize.py",
+    "size_bytes": 4778,
+    "sha256": "e419d56ca7ff7d1f97e2b29db33967c6ff24f51463ef510b3927e05c72508d45"
+  }
+]

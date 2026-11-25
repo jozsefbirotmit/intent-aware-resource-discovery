@@ -1,0 +1,18 @@
+{
+  "source": "primary full-known telemetry; no job-log availability selection",
+  "scenarios": 224,
+  "saved_period_models": 896,
+  "methods": [
+    "query_only",
+    "no_refresh_opt",
+    "psa1",
+    "psa1_s",
+    "legacy_exact"
+  ],
+  "rows": 1120,
+  "parameters_refitted": false,
+  "test_joint_counts_reproduced": true,
+  "elapsed_s": 42.86641868900006,
+  "selective_refinements": 0,
+  "model_expected_S_vs_DP_max_abs_difference": 0.0
+}

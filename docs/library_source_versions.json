@@ -1,0 +1,85 @@
+{
+  "resolved_at": "2026-11-19",
+  "sources": [
+    {
+      "name": "NOMS2027_PSA1S_Frozen_Telemetry_Replay_v1.zip",
+      "library_file_id": "libfile_f2a92d4139d88191a4c30d97831f6976",
+      "file_id": "file_0000000054d881f5963cb322cc20a193",
+      "version_id": null,
+      "modified_at": "2026-11-17T21:24:47.265625Z",
+      "size_bytes": 6309785
+    },
+    {
+      "name": "NOMS2027_Final_Algorithm_Benchmark_v1(1).zip",
+      "library_file_id": "libfile_2ca80d7e57a881919b3f5b184ffb4f36",
+      "file_id": "file_0000000015b08243bd8e447f4621332c",
+      "version_id": null,
+      "modified_at": "2026-11-17T20:51:35.259222Z",
+      "size_bytes": 693334
+    },
+    {
+      "name": "NOMS2027_Algorithm_Evaluation_Overleaf_v1.zip",
+      "library_file_id": "libfile_3fa160faa2a48191a57e960d275ddf1e",
+      "file_id": "file_00000000721c81f4ad476bac0bb4875c",
+      "version_id": "2",
+      "modified_at": "2026-11-17T14:07:44.223496Z",
+      "size_bytes": 182687
+    },
+    {
+      "name": "NOMS2027_PSA1_Alibaba2018_calibration_v1.zip",
+      "library_file_id": "libfile_bf92ea2248ec8191a2484a90cb5a559a",
+      "file_id": "file_00000000210881f6a24a5dd9e2d28334",
+      "version_id": null,
+      "modified_at": "2026-11-17T12:20:56.199304Z",
+      "size_bytes": 13803642
+    },
+    {
+      "name": "NOMS2027_Philly_audit_replay_v1.zip",
+      "library_file_id": "libfile_11dd7faec7e4819183025636a84a2aa7",
+      "file_id": "file_000000007eb48212aaa40551d80211eb",
+      "version_id": null,
+      "modified_at": "2026-11-16T12:08:49.786869Z",
+      "size_bytes": 52450423
+    },
+    {
+      "name": "NOMS2027_Eagle_telemetry_replay_v1.zip",
+      "library_file_id": "libfile_4a866b6833708191ae5ccb0970065c03",
+      "file_id": "file_00000000346881fd904ea7c530c1e21b",
+      "version_id": null,
+      "modified_at": "2026-11-16T10:18:02.399097Z",
+      "size_bytes": 20415762
+    },
+    {
+      "name": "NOMS2027_Alibaba_real_trace_pilot_v2.zip",
+      "library_file_id": "libfile_12b7ddcfbe688191a459d8d3dc9b4a84",
+      "file_id": "file_00000000c52481f49ff0e5f42cf1b84a",
+      "version_id": null,
+      "modified_at": "2026-11-09T16:37:36.471614Z",
+      "size_bytes": 431722
+    },
+    {
+      "name": "NOMS2027_Alibaba_trace_pilot_v1.zip",
+      "library_file_id": "libfile_2d62c1db9fa88191b6a7e877bfa4d4ed",
+      "file_id": "file_00000000a44882468099569eee5f078d",
+      "version_id": null,
+      "modified_at": "2026-11-09T13:48:40.660574Z",
+      "size_bytes": 517516
+    },
+    {
+      "name": "noms2027_edge_gpu_rq1_rq4_repro_v1.zip",
+      "library_file_id": "libfile_6144893efffc8191b92dbbe9c1530d27",
+      "file_id": "file_000000001a18820aa7b37074cc55b8cd",
+      "version_id": null,
+      "modified_at": "2026-11-09T11:43:34.436463Z",
+      "size_bytes": 499793
+    },
+    {
+      "name": "noms2027_ia_osr_psa1_audit_reproducibility_v1.zip",
+      "library_file_id": "libfile_450014251d9c8191b84e5f02e3e58830",
+      "file_id": "file_000000000cd481f48f23806b2537f290",
+      "version_id": null,
+      "modified_at": "2026-11-09T10:33:11.023382Z",
+      "size_bytes": 1269669
+    }
+  ]
+}

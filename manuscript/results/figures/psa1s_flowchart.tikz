@@ -1,0 +1,57 @@
+% PSA1-S conceptual online-decision flowchart
+% Requires: \usepackage{tikz}, \usetikzlibrary{arrows.meta,calc,shapes.geometric}
+% Designed to fit an IEEE two-column figure* at its natural size.
+\begin{tikzpicture}[
+  font=\footnotesize,
+  >={Latex[length=2mm,width=1.25mm]},
+  flow/.style={->,semithick,draw=black!72,rounded corners=2pt},
+  process/.style={draw=black!70,rounded corners=2pt,thick,fill=black!2,align=center,
+                  text width=4.8cm,minimum height=0.69cm,inner sep=4pt},
+  smallbox/.style={draw=black!65,rounded corners=2pt,thick,fill=black!2,align=center,
+                   text width=3.55cm,minimum height=0.68cm,inner sep=3pt},
+  test/.style={draw=black!75,thick,diamond,aspect=2.1,fill=black!2,
+               align=center,text width=2.9cm,inner sep=1.3pt},
+  finish/.style={draw=black!75,rounded corners=5pt,thick,fill=black!9,
+                 text width=3.25cm,minimum height=0.65cm,align=center,inner sep=3pt},
+  edgehint/.style={font=\scriptsize,fill=white,inner sep=1.2pt},
+]
+% Main decision spine: separated so that the decision nodes and arrows remain readable.
+\node[process] (state) at (0,0) {Current belief state $s$\\(statuses and posterior risks)};
+\node[test] (stop) at (0,-1.85) {Is unsuccessful STOP admissible?};
+\node[finish] (done) at (5.85,-1.85) {STOP\\(risk $\leq\varepsilon$)};
+\node[test] (tail) at (0,-4.05) {Active domains $m(s)\leq K$?};
+\node[smallbox] (exact) at (5.85,-4.05) {Choose action using\\exact Bellman continuation};
+\node[process] (scores) at (0,-6.05) {One-step scores for all admissible actions\\$U_1(s,a)=c(a)+\mathbb E[B_K(s')\mid s,a]$};
+\node[test] (gate) at (0,-8.12) {Selective lookahead triggered?\\($m\leq16$ and critical state)};
+\node[smallbox] (refine) at (5.75,-9.30) {Select one candidate per type\\($Q_i$, $R_i$, \textsf{SKIP})};
+\node[smallbox] (newscore) at (5.75,-10.78) {Replace their $U_1$ scores by $U_2$\\(two-step lookahead)};
+\node[process] (choose) at (0,-12.10) {Choose action with the lowest final score\\(other actions retain $U_1$)};
+\node[process] (execute) at (0,-13.70) {Execute one action; observe outcome\\and update beliefs / commitments};
+\node[test] (success) at (0,-15.40) {Did QUERY find a resource?};
+\node[finish] (found) at (5.85,-15.40) {Success: return\\compliant resource};
+% Spine and branching
+\draw[flow] (state)--(stop);
+\draw[flow] (stop.east)--node[edgehint,above]{yes}(done.west);
+\draw[flow] (stop.south)--node[edgehint,right]{no}(tail.north);
+\draw[flow] (tail.east)--node[edgehint,above]{yes}(exact.west);
+\draw[flow] (tail.south)--node[edgehint,right]{no}(scores.north);
+\draw[flow] (scores)--(gate);
+% The negative trigger branch keeps all one-step scores.
+\draw[flow] (gate.west)--node[edgehint,above]{no: keep $U_1$}(-5.75,-8.12)
+ --(-5.75,-12.10)--(choose.west);
+% The positive trigger branch refines at most one candidate of each type.
+\draw[flow] (gate.east)-|node[edgehint,above,pos=.25]{yes}(refine.north);
+\draw[flow] (refine)--(newscore);
+\draw[flow] (newscore.south) |- (choose.east);
+\draw[flow] (choose)--(execute);
+\draw[flow] (execute)--(success);
+\draw[flow] (success.east)--node[edgehint,above]{yes}(found.west);
+% The exact-tail branch bypasses heuristic evaluation and selection.
+\draw[flow] (exact.east)--(8.15,-4.05)--(8.15,-13.70)--(execute.east);
+% Receding-horizon replanning after a failed query, refresh or skip.
+\draw[flow] (success.west)--node[edgehint,above]{no / not QUERY}(-8.15,-15.40)
+  --(-8.15,0)--(state.west);
+% Concise explanation of the three trigger mechanisms.
+\node[font=\scriptsize,align=left,anchor=west,text=black!70] at (-7.85,-5.85)
+  {Critical-state signals:\\competing SKIP risks,\\near-tied REFRESH,\\positive ordering value};
+\end{tikzpicture}

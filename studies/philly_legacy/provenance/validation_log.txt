@@ -1,0 +1,18 @@
+test_all_lags_use_same_known_calendar_grid (test_philly.PhillyChecks.test_all_lags_use_same_known_calendar_grid) ... ok
+test_four_domain_enumeration_matches_bellman (test_philly.PhillyChecks.test_four_domain_enumeration_matches_bellman) ... ok
+test_half_open_job_interval_and_censoring (test_philly.PhillyChecks.test_half_open_job_interval_and_censoring) ... ok
+test_logged_allocation_excludes_an_idle_gpu (test_philly.PhillyChecks.test_logged_allocation_excludes_an_idle_gpu) ... ok
+test_missing_is_unknown_not_failure_and_or_short_circuits (test_philly.PhillyChecks.test_missing_is_unknown_not_failure_and_or_short_circuits) ... ok
+test_missing_job_release_yields_unknown_not_busy_or_free (test_philly.PhillyChecks.test_missing_job_release_yields_unknown_not_busy_or_free) ... ok
+test_pdt_pst_repeated_hour_is_distinct (test_philly.PhillyChecks.test_pdt_pst_repeated_hour_is_distinct) ... ok
+test_utc_job_parse_matches_resource_manager_epoch_example (test_philly.PhillyChecks.test_utc_job_parse_matches_resource_manager_epoch_example) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.151s
+
+OK
+
+Unexpected-gap audit: fast and direct PSA1 continuations agreed on 990 admissible states of the worst fitted model. Exact and PSA1 policy costs were independently enumerated over all256 outcomes during every fit.
+
+Final output checks: 448 joint-mask and224 full-telemetry configurations; each six methods. Shared time counts, success/stop accounting, zero misses at epsilon0, strict-query zero misses and model STOP bounds verified. All JSON parses strictly.
+Full-telemetry worst-model audit: direct and fast continuations agree on596 admissible states.

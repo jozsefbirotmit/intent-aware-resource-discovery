@@ -1,0 +1,58 @@
+{
+  "philly": {
+    "configurations": 112,
+    "S_DP_cost_max_abs_difference": 0.0,
+    "S_DP_risk_changed": 26,
+    "S_DP_risk_lower": 17,
+    "S_DP_risk_higher": 9,
+    "S_DP_risk_max_abs_percentage_points": 6.1834045627150696,
+    "S_cheaper_than_PSA1": 62,
+    "S_more_expensive_than_PSA1": 18,
+    "S_positive_budget_profiles_over_10pct": 34,
+    "S_worst_risk": 0.1866816311260755,
+    "S_worst_misses": 1996,
+    "S_worst_empty_stops": 10692,
+    "S_worst_risk_CI": [
+      0.1341107557825667,
+      0.2505817282844105
+    ]
+  },
+  "alibaba2018": {
+    "configurations": 54,
+    "S_DP_cost_max_abs_difference": 0.0,
+    "S_DP_risk_changed": 1,
+    "S_DP_risk_lower": 1,
+    "S_DP_risk_higher": 0,
+    "S_DP_risk_max_abs_percentage_points": 0.017536107368520265,
+    "S_cheaper_than_PSA1": 8,
+    "S_more_expensive_than_PSA1": 3,
+    "S_positive_budget_profiles_over_10pct": 1,
+    "S_worst_risk": 0.1029669156883671,
+    "S_worst_misses": 2412,
+    "S_worst_empty_stops": 23425,
+    "S_worst_risk_CI": [
+      0.0426148780324533,
+      0.1675372152138888
+    ],
+    "old_PSA1_max_risk": 0.0744802677942212,
+    "S_tightened_calibration_budgets": 5,
+    "S_vs_legacy_DP_calibration_budget_differences": 0
+  },
+  "primary_zero_budget_savings": {
+    "philly_2gpu": [
+      14.38163658372982,
+      17.2664485800766,
+      21.151093831476363
+    ],
+    "philly_4gpu": [
+      6.845737009099051,
+      13.888607547775,
+      18.733128104033035
+    ],
+    "alibaba_C": [
+      2.540516044269004,
+      3.523269183615008,
+      3.0358075344715463
+    ]
+  }
+}

@@ -1,0 +1,2 @@
+n_pairs,mean_delta_psa_cost,delta_psa_ci_low,delta_psa_ci_high,fraction_psa_change,mean_delta_opt_cost,frac_boundary_skip_act
+600,0.8223839106224913,0.7733593336467396,0.8719109846208878,1.0,0.6234140390743725,0.99

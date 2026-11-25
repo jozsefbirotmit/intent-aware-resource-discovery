@@ -1,0 +1,43 @@
+{
+  "description": "NOMS IA-OSR mechanism-driven synthetic experiments, v1",
+  "synthetic_only": true,
+  "case_counts": {
+    "cases.csv": 3600,
+    "sensitivity_cases.csv": 4860,
+    "calibration_drift_cases.csv": 1500,
+    "runtime_scaling.csv": 40
+  },
+  "family_seeds": [
+    1009,
+    2009,
+    3009,
+    4009,
+    5009
+  ],
+  "factorial_seeds": [
+    1201,
+    2201,
+    3201,
+    4201
+  ],
+  "drift_seeds": [
+    3001,
+    3998,
+    4995,
+    5992,
+    6989
+  ],
+  "bootstrap_resamples_family_and_drift": 1500,
+  "bootstrap_resamples_factorial": 1000,
+  "runtime_replicates_per_n": 8,
+  "python_version": "3.13.5",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "assumptions": [
+    "independent domains",
+    "at most one binary refresh per domain",
+    "exact query",
+    "irreversible skip",
+    "single feasible resource needed",
+    "missed-resource risk tolerance under nominal calibrated beliefs"
+  ]
+}

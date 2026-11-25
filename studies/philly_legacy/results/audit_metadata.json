@@ -1,0 +1,93 @@
+{
+  "inventory_hosts": 552,
+  "inventory_gpus": 2490,
+  "inventory_classes": [
+    {
+      "number of GPUs": 2,
+      "single GPU mem": "12GB",
+      "hosts": 321
+    },
+    {
+      "number of GPUs": 8,
+      "single GPU mem": "24GB",
+      "hosts": 231
+    }
+  ],
+  "gpu": {
+    "rows": 44750640,
+    "hosts": 552,
+    "selected_duplicate_keys": 0,
+    "selected_conflicting_keys": 0,
+    "selected_invalid_times": 0,
+    "selected_outside_window": 0
+  },
+  "memory": {
+    "rows": 45003060,
+    "hosts": 552,
+    "selected_duplicate_keys": 0,
+    "selected_conflicting_keys": 0,
+    "selected_invalid_times": 0,
+    "selected_outside_window": 0
+  },
+  "jobs": {
+    "jobs": 117325,
+    "attempts": 159351,
+    "empty_detail": 754,
+    "missing_start": 136,
+    "missing_end": 6695,
+    "ambiguous_start": 0,
+    "ambiguous_end": 0,
+    "reversed_intervals": 48,
+    "invalid_gpu_ids": 0,
+    "details": 179828,
+    "selected_gpu_intervals": 21434,
+    "max_simultaneous_logged_jobs_per_gpu_bin": 2,
+    "gpu_bins_with_overlapping_logged_jobs": 3214,
+    "gpu_bins_with_uncertain_occupancy": 17129507,
+    "job_hosts": 415,
+    "selected_hosts_with_any_job_detail": 24,
+    "job_time_zone": "UTC",
+    "job_time_zone_status": "UTC inferred from application ID ResourceManager epochs and first submission delays; not explicitly specified by the dataset README.",
+    "occupancy_semantics": "Bounded valid intervals give confirmed public-subset occupancy. Missing/reversed endpoints give uncertain occupancy, censored to window edges, never proof of idle or active. DST ambiguity covered conservatively."
+  },
+  "grid_start_utc": "2017-10-03 07:00:00+00:00",
+  "grid_last_bin_start_utc": "2017-12-16 07:59:00+00:00",
+  "grid_bins": 106620,
+  "split_utc": "2017-11-01 07:00:00+00:00",
+  "candidate_hosts": 96,
+  "selected_hosts": [
+    "m17",
+    "m270",
+    "m171",
+    "m156",
+    "m231",
+    "m313",
+    "m9",
+    "m39",
+    "m190",
+    "m204",
+    "m320",
+    "m91",
+    "m271",
+    "m147",
+    "m284",
+    "m418",
+    "m260",
+    "m406",
+    "m36",
+    "m51",
+    "m55",
+    "m296",
+    "m49",
+    "m158"
+  ],
+  "training_bins": 41760,
+  "test_bins": 64860,
+  "mean_selected_train_coverage": 0.983973898467433,
+  "mean_selected_test_coverage": 0.9903934114503032,
+  "inventory_gpu_counts_used": false,
+  "inventory_warning": "Published inventory GPU count/memory classes are inconsistent with telemetry and job allocation indices (issue #8). Only host identifiers are used; eight-channel eligibility selected by training observations.",
+  "timestamp_semantics": "Source minute labelled t is made available at t+1 minute; no forward fill. Job overlap conservatively uses [t,t+1).",
+  "memory_units": "No absolute host-memory unit is assumed; intent uses mem_free/mem_total.",
+  "warning": "Low GPU utilization and absence of a logged job do NOT establish scheduler allocatability. Dynamic GPU VRAM is absent."
+}

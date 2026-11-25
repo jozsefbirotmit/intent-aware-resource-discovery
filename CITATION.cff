@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite the paper and the version DOI once released."
+title: "Intent-Aware Sequential Resource Discovery under Uncertain Domain Knowledge: Reproducibility Artifact"
+type: software
+version: "0.2"
+authors:
+  - family-names: Ficzere
+    given-names: Dániel
+  - family-names: Frankó
+    given-names: Attila
+  - family-names: Hollósi
+    given-names: Gergely
+  - family-names: Varga
+    given-names: Pál
+  - family-names: Bíró
+    given-names: József
+keywords: [intent-based management, resource discovery, sequential decision making, rollout, telemetry]

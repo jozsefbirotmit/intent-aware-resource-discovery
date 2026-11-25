@@ -1,0 +1,27 @@
+[
+  {
+    "filename": "cluster_cpu_util",
+    "bytes": 1647169576,
+    "sha256": "522f04adcc1d7efa62d49f9d38cb91ae045248cc23673137737763bbabb05865"
+  },
+  {
+    "filename": "cluster_job_log",
+    "bytes": 38967002,
+    "sha256": "aedddbb94523e7ddf454284ce3f3211ce7175f16dd189e5f00195603c65472c6"
+  },
+  {
+    "filename": "cluster_gpu_util",
+    "bytes": 3042490634,
+    "sha256": "04d7cd92f25b480981584e744002ee1fbaa61334fb7a10ccc1fbc5bdb6ee5673"
+  },
+  {
+    "filename": "cluster_mem_util",
+    "bytes": 2330800303,
+    "sha256": "62f3cff04235604fa4f22bc72f7824de167d8cea5ef0187ee3fc7fe7e2be6f24"
+  },
+  {
+    "filename": "cluster_machine_list",
+    "bytes": 7108,
+    "sha256": "5a3f3ad190fcf75bb44b8f7e4b1a8d76897255e35657d3038c8e43d021cba22f"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "models": 90,
+  "policy_values": 360,
+  "trajectories": 720,
+  "complete": true,
+  "timing_values": "hardware dependent; not equality tested",
+  "scaling_roots": 30
+}

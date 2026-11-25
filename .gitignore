@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+*.nbc
+*.nbi
+work/
+raw/
+
+# Never commit locally acquired Alibaba data or regenerated work directories.
+work*/
+**/raw/
+**/input/alibaba2018/
+**/alibaba2018_measured_subset.npz
+**/selected_measurements.csv.gz
+**/machine_metadata.csv.gz

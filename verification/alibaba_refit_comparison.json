@@ -1,0 +1,6 @@
+{
+  "dataset": "alibaba2018",
+  "fitted_models": 54,
+  "domain_states_equal": true,
+  "policy_rows": 2268
+}

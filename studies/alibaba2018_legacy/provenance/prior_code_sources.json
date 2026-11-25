@@ -1,0 +1,22 @@
+{
+  "files": [
+    {
+      "file": "ia_osr_experiment.py",
+      "sha256": "751746e688a7575a9010c79915cce2e779d05bd5b2bf05eb8b003a6581744729",
+      "copied_unchanged_from": "NOMS2027_Philly_audit_replay_v1.zip"
+    },
+    {
+      "file": "ia_osr_psa_audit.py",
+      "sha256": "b840a2eb0a51d893de47be198edf9e4c1e261a3a7592e510d8f04584a9feae9a",
+      "copied_unchanged_from": "NOMS2027_Philly_audit_replay_v1.zip"
+    },
+    {
+      "file": "decision_evaluation.py",
+      "sha256": "46f05df6632d9b0db6acde33d8a717a51f8ab4bd8d0b9ef015d7f6cd09e718b5",
+      "copied_unchanged_from": "NOMS2027_Philly_audit_replay_v1.zip"
+    }
+  ],
+  "philly_source_zip_sha256": "83a294fcb830a4dbfbc72026b77540bbec6875626bc0e380de16fd0e1ac85393",
+  "adaptive_study_zip_sha256": "14ba92e642de28276c0b03ba58617ff700a6380584bd88a5212f596dc0462307",
+  "solver_files_also_equal_latest_adaptive_study": true
+}
