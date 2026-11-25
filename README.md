@@ -1,10 +1,10 @@
 # Intent-Aware Sequential Resource Discovery under Uncertain Domain Knowledge
 
-**Public-release candidate 0.2 — matched to manuscript v8 (2026-11-25).**
+**Artifact version 1.0.0 — prepared for release; matched to manuscript v8 (2026-11-25).**
 
 Dániel Ficzere, Attila Frankó, Gergely Hollósi, Pál Varga, József Bíró.
 
-This candidate includes the algorithm implementations, synthetic benchmark, Philly telemetry subset, manuscript figures, and aggregate research results. Alibaba-2018 machine data, time-indexed derived states and fitted inputs are **not redistributed**. They must be regenerated locally from the provider's source under its terms. The full local v0.1 archive is retained separately by the authors. No GitHub release or Zenodo DOI has yet been created.
+This artifact includes the algorithm implementations, synthetic benchmark, Philly telemetry subset, manuscript figures, and aggregate research results. Alibaba-2018 machine data, time-indexed derived states and fitted inputs are **not redistributed**. They must be regenerated locally from the provider's source under its terms. The full local v0.1 archive is retained separately by the authors. No GitHub release or Zenodo DOI has yet been created.
 
 ## Quickstart
 
@@ -35,4 +35,4 @@ The synthetic benchmark tests selective lookahead. The four-domain telemetry rep
 
 ## Data attribution and license
 
-Philly data: Microsoft Research, [Philly traces](https://github.com/msr-fiddle/philly-traces), CC BY 4.0. Cite Jeon et al., USENIX ATC 2019. Included measurements and predicates are adapted subsets (selection, time alignment, binning, resource predicates and masks). See [DATA.md](docs/DATA.md). No upstream endorsement is implied. Alibaba source: [Alibaba Cluster Trace Program v2018](https://github.com/alibaba/clusterdata/tree/master/cluster-trace-v2018). Only original research-level aggregate outputs and acquisition/reproduction code are distributed, not the underlying records. No third-party data is relicensed. Software license selection and final release metadata remain to be confirmed before making this candidate public.
+Philly data: Microsoft Research, [Philly traces](https://github.com/msr-fiddle/philly-traces), CC BY 4.0. Cite Jeon et al., USENIX ATC 2019. Included measurements and predicates are adapted subsets (selection, time alignment, binning, resource predicates and masks). See [DATA.md](docs/DATA.md). No upstream endorsement is implied. Alibaba source: [Alibaba Cluster Trace Program v2018](https://github.com/alibaba/clusterdata/tree/master/cluster-trace-v2018). Only original research-level aggregate outputs and acquisition/reproduction code are distributed, not the underlying records. No third-party data is relicensed. The original software and associated software documentation are distributed under the [MIT License](LICENSE). This license does not cover datasets, manuscript text, figures, or other research outputs. The Philly data and their adaptations remain under CC BY 4.0. Cite the version-specific Zenodo DOI once the release has been archived.
