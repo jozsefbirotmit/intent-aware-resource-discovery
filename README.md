@@ -1,10 +1,10 @@
 # Intent-Aware Sequential Resource Discovery under Uncertain Domain Knowledge
 
-**Artifact version 1.0.0 — prepared for release; matched to manuscript v8 (2026-11-25).**
+**Artifact version 1.1.0 — complete v1.0.0 artifact plus the scientific-audit supplement for manuscript v10.**
 
 Dániel Ficzere, Attila Frankó, Gergely Hollósi, Pál Varga, József Bíró.
 
-This artifact includes the algorithm implementations, synthetic benchmark, Philly telemetry subset, manuscript figures, and aggregate research results. Alibaba-2018 machine data, time-indexed derived states and fitted inputs are **not redistributed**. They must be regenerated locally from the provider's source under its terms. The full local v0.1 archive is retained separately by the authors. No GitHub release or Zenodo DOI has yet been created.
+This artifact includes the algorithm implementations, synthetic benchmark, Philly telemetry subset, manuscript figures, and aggregate research results. Alibaba-2018 machine data, time-indexed derived states and fitted inputs are **not redistributed**. They must be regenerated locally from the provider's source under its terms. The full local v0.1 archive is retained separately by the authors. The original v1.0.0 release is archived at https://doi.org/10.5281/zenodo.24583528. The manuscript snapshot under `manuscript/` is the historical v8 snapshot; the audit extension supports the revised v10 results.
 
 ## Quickstart
 
@@ -28,6 +28,21 @@ python scripts/reproduce.py figures
 ```
 
 Use different `--work` directories for repeated or overlapping targets. `refit` rebuilds Philly domain states and models from the included measured subset. New timing values depend on the hardware. For the complete Alibaba preprocessing and joint telemetry replay, follow [DATA.md](docs/DATA.md). For the mapping from manuscript claims to commands, see [PAPER_MAP.md](docs/PAPER_MAP.md).
+
+## Scientific audit extension (v1.1.0)
+
+The [audit directory](audit/README.md) contains the HQ/H1 baseline benchmark on the original 60 holdout instances, an independent small-state DP verification, and checks of the revised telemetry and synthetic summaries. It adds no new third-party records and changes no original solver, benchmark or replay inputs.
+
+Run from the repository root, using the same installed dependencies:
+
+```bash
+python audit/check_baselines.py studies/final_benchmark work/baseline_60_rerun.csv
+python audit/check_small_states.py studies/final_benchmark
+python audit/check_telemetry_summaries.py . --out work/telemetry_summary_rerun.json
+python audit/check_synthetic_summaries.py .
+```
+
+Create `work/` first if it does not exist. See the audit README for the distinction between historical and newly executed checks.
 
 ## Evidence and limitations
 

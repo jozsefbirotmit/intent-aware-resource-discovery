@@ -1,8 +1,8 @@
-# Release checklist (version 1.0.0)
+# Release checklist (version 1.1.0)
 
-- Coauthor permission: confirmed by the corresponding author in discussion.
-- Public-content and clean-environment gates: accepted as complete by the corresponding author for the preceding full local candidate; not independently re-certified for every target in this reduced distribution.
-- Alibaba-2018: conservative exclusion of measurement records, derived time series and fitted inputs; local regeneration path supplied. Explicit redistribution permission remains unverified. Philly attribution retained.
-- Initial repository commit: 5667d267a088ab61f3c388cdde617602ce42f17c.
-- Original software: MIT; third-party data and manuscript materials retain their respective rights. See LICENSE and docs/DATA.md.
-- Remaining: confirm review/publication rules, switch repository visibility, authorize Zenodo integration, publish tag v1.0.0 as a GitHub release, verify archived record and version DOI, and insert actual DOI in manuscript. A full raw Alibaba preprocessing run on this reduced distribution has not been performed.
+- Prior release: v1.0.0, https://doi.org/10.5281/zenodo.24583528; tag and archived record retained.
+- Coauthor permission and original public-content gates: as documented in the previous release. The v1.1.0 supplement adds only original audit code, aggregate results and logs.
+- Alibaba-2018 measurement records, derived time series and fitted inputs remain excluded. Philly attribution and scoped MIT software license are unchanged.
+- The original solver, benchmark and replay files are unchanged. The historical v8 manuscript snapshot is retained; the audit supplement supports revised manuscript v10.
+- The WP4 baseline rerun reproduced its audit CSV byte for byte; the independent DP log is from the earlier audit. Full original raw-trace preprocessing and a fresh independent environment installation were not repeated.
+- Publish v1.1.0 as a new GitHub release, verify Zenodo ingestion and version DOI, then update the manuscript reference. The version DOI is not known at commit creation.

@@ -1,6 +1,6 @@
 # Manuscript v8 result-to-command map
 
-All paper numbers can be checked against `python scripts/reproduce.py quick`; the numerical assertions encode the printed rounding, not new estimates. Tables below refer to the v8 manuscript labels. Each fresh run target creates a separate copy under `work/`.
+The original headline numbers can be checked against `python scripts/reproduce.py quick`; the numerical assertions encode the printed rounding, not new estimates. Tables below refer to the v8 manuscript labels. Each fresh run target creates a separate copy under `work/`.
 
 | Manuscript item | Archived source | Fresh reproduction |
 |---|---|---|
@@ -21,3 +21,14 @@ All paper numbers can be checked against `python scripts/reproduce.py quick`; th
 All paths in the archived-source column are relative to `studies/`. The quick command writes `work/paper_results/` with the numeric table data, paired CIs, risk extrema, plotting data and two independently rendered figures. The exact v8 figure assets remain in `manuscript/results/figures/`.
 
 For a Philly-only replay use `telemetry-philly`. For the full joint replay and Alibaba refit use the instructions in `DATA.md`; Alibaba source and derived inputs are not included in this distribution.
+
+## Manuscript v10 scientific-audit additions (artifact v1.1.0)
+
+| Revised manuscript claim | Source and reproduction |
+|---|---|
+| HQ/H1 mean per-instance savings on 60 holdout models | `audit/baseline_60.csv`; `audit/check_baselines.py` |
+| Independent small-state DP and continuation checks | `audit/check_small_states.py`, historical log |
+| Zero-budget grid signs, coverage, calibration budget counts, risk denominators and bootstrap examples | `audit/check_telemetry_summaries.py`, `audit/telemetry_summary.json` |
+| Synthetic aggregate savings, episode timing and prior-drift interpretation | `audit/check_synthetic_summaries.py` and original benchmark summaries |
+
+The v8 manuscript snapshot and original numerical results are unchanged. Consult `audit/README.md` for the supplementary reproduction commands and scope.

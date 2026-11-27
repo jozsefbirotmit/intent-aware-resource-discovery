@@ -2,11 +2,11 @@ cff-version: 1.2.0
 message: "Please cite the paper and the version DOI once released."
 title: "Intent-Aware Sequential Resource Discovery under Uncertain Domain Knowledge: Reproducibility Artifact"
 type: software
-version: "1.0.0"
+version: "1.1.0"
 license: MIT
 repository-code: "https://github.com/jozsefbirotmit/intent-aware-resource-discovery"
 abstract: >-
-  Reproducibility artifact for intent-aware sequential resource discovery under uncertain domain knowledge. Includes algorithm implementations, synthetic benchmarks, Philly telemetry replay inputs, aggregate research results, and scripts for local Alibaba-2018 data acquisition and preprocessing. Alibaba measurement records and fitted inputs are not redistributed. The software license does not apply to third-party data or manuscript materials.
+  Reproducibility artifact for intent-aware sequential resource discovery under uncertain domain knowledge. Includes algorithm implementations, synthetic benchmarks, Philly telemetry replay inputs, aggregate research results, scientific-audit checks and HQ/H1 baseline results, and scripts for local Alibaba-2018 data acquisition and preprocessing. Alibaba measurement records and fitted inputs are not redistributed. The software license does not apply to third-party data or manuscript materials.
 authors:
   - family-names: Ficzere
     given-names: Dániel

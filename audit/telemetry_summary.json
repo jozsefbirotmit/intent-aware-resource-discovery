@@ -1,0 +1,81 @@
+{
+  "grid": {
+    "philly": {
+      "n": 112,
+      "positive": 99,
+      "zero": 0,
+      "negative": 13,
+      "minimum": -8.151589774432445
+    },
+    "alibaba": {
+      "n": 54,
+      "positive": 10,
+      "zero": 33,
+      "negative": 11,
+      "minimum": -3.5090474125130555
+    }
+  },
+  "bootstrap_examples": {
+    "philly": {
+      "savings": 14.38163658372982,
+      "low": 2.0321664640455603,
+      "high": 25.30715256153611,
+      "n": 61185
+    },
+    "alibaba": {
+      "savings": 3.523269183615008,
+      "low": -0.4120229086236984,
+      "high": 7.873973030659404,
+      "n": 24059
+    }
+  },
+  "coverage": {
+    "philly": [
+      94.41983920001235,
+      98.96297896637398
+    ],
+    "alibaba": [
+      86.32629107981221,
+      94.12754303599374
+    ],
+    "philly_bins_per_layout": 64801,
+    "alibaba_bins_per_profile": 25560
+  },
+  "calibration": {
+    "selected_budget_counts": {
+      "0.1": 49,
+      "0.025": 2,
+      "0.01": 2,
+      "0.075": 1
+    },
+    "worst_profile": 29,
+    "selected_budget_worst": 0.1,
+    "nominal_risk": 0.1029669156883671,
+    "selected_risk": 0.1029669156883671
+  },
+  "risk_examples": {
+    "philly": {
+      "n": 61185,
+      "success": 50877,
+      "empty": 10308,
+      "miss": 630,
+      "conditional": 6.111757857974389,
+      "feasible": 1.2231347195526823,
+      "unconditional": 1.029664133366021
+    },
+    "alibaba": {
+      "n": 23477,
+      "success": 52,
+      "empty": 23425,
+      "miss": 2412,
+      "conditional": 10.296691568836714,
+      "feasible": 97.8896103896104,
+      "unconditional": 10.273885079013503
+    }
+  },
+  "source_sha256": {
+    "results/philly/policy_summary.csv": "4ced6944536fac3a29ba424855181b2ec1b0109cd91bd320a4e379c5f0427efb",
+    "results/alibaba2018/policy_summary.csv": "d12f62e82ce276e5b540b37d68131b572e061238ecd17602d597ac9f06b99e09",
+    "input/philly/domain_states.csv.gz": "160df38e2bb1b4f6da45500fb8f7918d595e2a7445c053cfcfcf06a3d697ea9c"
+  }
+}
